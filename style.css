@@ -31,7 +31,7 @@ header img {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    
+
 
 }
 
@@ -44,70 +44,178 @@ header img {
 }
 
 @media screen and (max-width: 768px) {
-    .twopara,.container {
+
+    .twopara,
+    .container {
         flex-direction: column;
         padding: 30px;
 
+
     }
 }
+
 /* 3 boxes */
 
-.item1{
+.item1 {
     width: 311.63px;
     height: 345px;
     background-color: #00ccb1;
     padding: 32px 32px 0;
     border-radius: 5px;
 }
-.item2{
+
+.item2 {
     width: 311.63px;
     height: 345px;
     background-color: #3d83df;
     padding: 32px 32px 0;
     border-radius: 5px;
 }
-.item3{
+
+.item3 {
     width: 311.63px;
     height: 345px;
     background-color: #1b2734;
     padding: 32px 32px 0;
     border-radius: 5px;
 }
-.container{
+.item1:hover{
+    opacity: 90%;
+}
+.item2:hover{
+    opacity: 90%;
+}
+.item3:hover{
+    opacity: 90%;
+}
+.container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 30px 300px 30px 280px;
-    flex-wrap: wrap;
+
 }
-.services-item h1{
+
+.services-item h1 {
     color: #fff;
-    font-family: Work Sans,Arial,sans-serif;
+    font-family: Work Sans, Arial, sans-serif;
     font-weight: 400;
     font-size: 26px;
 }
-.services-item h2{
+
+.services-item h2 {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
-.select-item, .specialist{
+
+.select-item,
+.specialist {
     background: transparent;
-    text-decoration:underline;
+    text-decoration: underline;
     color: #fff;
     font-size: 19.2px;
     font-family: 'Roboto', sans-serif;
-    border-radius:0;
-    border:0;
-    margin: 60px 0 0 0;
+    border-radius: 0;
+    border: 0;
+    margin: 30px 0 0 0;
+    cursor: pointer;
 }
-.specialist2{
+
+.specialist2 {
     background: transparent;
-    text-decoration:underline;
+    text-decoration: underline;
     color: #fff;
     font-size: 19.2px;
     font-family: 'Roboto', sans-serif;
-    border-radius:0;
-    border:0;
+    border-radius: 0;
+    border: 0;
     margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+/* Logos brands */
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 300px 30px 280px;
+    float: left;
+
+}
+.brands-logos{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container2 h1 {
+    float: left;
+    color: #00b39b;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    margin: 6.5px 0 9.1px;
+    padding: 0 26px 0 0;
+}
+
+.brands-logos {
+    list-style-type: none;
+
+
+}
+
+a:hover {
+    fill: #00bfa5;
+    font-size: 16px;
+}
+
+a {
+    fill: hsla(0, 0%, 67%, .7)
+}
+
+li.jameda {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+li.jameda:hover {
+    filter: none;
+    opacity: 100%;
+}
+
+li.tuotempo {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+li.tuotempo:hover {
+    filter: none;
+    opacity: 100%;
+}
+li.gipo {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+li.gipo:hover {
+    filter: none;
+    opacity: 100%;
+}
+li.clinicloud {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+li.clinicloud:hover {
+    filter: none;
+    opacity: 100%;
+}
+li.feegow {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+li.feegow:hover {
+    filter: none;
+    opacity: 100%;
 }
