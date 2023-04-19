@@ -1,0 +1,52 @@
+header img {
+    width: 268px;
+    height: 33px;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#paraheader {
+    color: #00b39b;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 0 10px;
+    padding: 20px 0 0;
+
+}
+
+.twopara {
+    display: flex;
+    color: #747474;
+    padding: 30px 300px 30px 280px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    
+
+}
+
+.p1,
+.p2 {
+
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+@media screen and (max-width: 768px) {
+    .twopara {
+        flex-direction: column;
+        padding: 30px;
+
+    }
+}
