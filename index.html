@@ -8,20 +8,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
+        <div>
         <a href="./index.html">
             <img name="gotohome" src="https://docplanner-gomycode.onrender.com/logos/FullLogo.png" alt="Logo" />
-        </a>
-        <div class="navbar">
-            <a id="About" href="./index.html">About us</a>
-            <a id="Career" href="#">Career</a>
-            <a id="Departments" href="#">Departments</a>
-        </div>
+          </a>
+          
+        <div class="topnav" id="myTopnav">
+            <a href="#Departments">Departments</a>
+            <a href="#Career"> Career</a>
+            <a href="#About us" class="active">About us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="./index.html">
+                    <img name="gotohome" src="https://docplanner-gomycode.onrender.com/logos/FullLogo.png" alt="Logo" />
+                  </a>
+                <i class="fa fa-bars"></i>
+              </a>
+            
+          </div>
     </header>
     <div class="head">
         <img id="logo" src="https://docplanner-gomycode.onrender.com/logos/logo.png" alt="logo">
@@ -208,6 +218,8 @@
         </section>
 
     </div>
+
+
 </body>
 
 </html>

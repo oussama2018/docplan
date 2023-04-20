@@ -1,6 +1,58 @@
+body{
+    margin: 0;
+}
+/*Nav bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    float: right;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(71, 71, 71, 0.5);
+    position: 0px;
+    top: 0px;
+
+    
+  }
+  
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ababab;
+    
+  }
+  
+  .topnav a:hover {
+    
+    color: #00bfa5;
+  }
+  
+  .topnav a.active {
+    color: white;
+    color: #00b39b;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+
+ 
+  
+  header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 header img {
     width: 268px;
     height: 33px;
+    margin-right: 1200px;
 }
 
 #logo {
@@ -10,6 +62,11 @@ header img {
     margin-right: auto;
     display: block;
 }
+.head{
+    
+    margin-top: 60px;
+}
+
 
 #paraheader {
     color: #00b39b;
@@ -51,6 +108,11 @@ header img {
         padding: 30px;
 
 
+    }
+    header img{
+        width: 100px;
+        height: 50px;
+        margin-right: 50;
     }
 }
 
